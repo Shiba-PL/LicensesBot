@@ -1,0 +1,52 @@
+{
+	"token": "",
+	"prefix": "/",
+	"keyformat": "uuidv4",
+	"embed": {
+		"color": "#2f3136",
+		"footer": "LicenseBot | qntum.xyz/licensebot | You can remove this in config."
+	},
+	"mysql": {
+		"host": "",
+		"port": 3306,
+		"user": "",
+		"password": "",
+		"db": ""
+	},
+	"web": {
+		"enabled": true,
+		"port": 13584,
+		"host": "127.0.0.1",
+		"ssl": {
+			"enabled": false,
+			"fullpem": "",
+			"privkey": ""
+		}
+	},
+	"messages": {
+		"no_permission": "You are not allowed to do that!",
+		"no_owner_specified": "Please specify an owner ID! (e.g. 1234512345123, Nobody)",
+		"sent_to_your_dms": "Check your DMs!",
+		"key_deleted": "Key deleted!",
+		"key_not_found": "That key doesn't appear to exist!",
+		"key_not_specified": "You have not specified a license key!",
+		"key_not_valid": "That key is not valid!",
+		"key_valid_but_not_used": "That key is valid but has not been used yet.",
+		"key_valid_but_used": "That key is valid and has been used.",
+		"error_while_validating": "A problem occured and I cannot validate that key!",
+		"here_is_key": "Here is the license key: `$key`",
+		"licenses_for_username": "Licenses for $user",
+		"give_user_id_not_mention": "Please provide the user ID. Do not mention them.",
+		"user_not_specified": "User not specified!",
+		"owner_set": "New owner set",
+		"keyinfo": {
+			"title": "License key information",
+			"license_key": "License Key",
+			"created_on": "Created on",
+			"expiry_date": "Expiry Date",
+			"hwid": "Hardware ID bound to",
+			"owner": "Owner"
+		}
+	},
+	"dbinit": false
+}
